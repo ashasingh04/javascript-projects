@@ -24,10 +24,3 @@ let hoursToMoon = milesToMoon / shuttleSpeedMph;
 let daysToMoon = hoursToMoon / 24;
 // Print the results of the trip to the moon below
 console.log(shuttleName, "will take",daysToMoon ,"days to reach the Moon.")
-console.log(Number('3 3'))
-console.log(Number('33'))
-let day = "Thursday";
- day = 32.5;
- day = 19;
- console.log(day);
- console.log('Asha')
