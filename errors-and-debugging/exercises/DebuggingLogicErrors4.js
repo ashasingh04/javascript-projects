@@ -28,7 +28,7 @@ if (crewStatus && computerStatus === 'green'){
 }
 
 console.log("launchReady = ", launchReady);
-
+console.log("In first condition, for given fuelLevel, launchReady is set to false but in second condition for given crewStatus and computerStatus, launchReady is again reset to true, that is not expected.");
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');

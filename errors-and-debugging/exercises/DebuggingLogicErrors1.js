@@ -30,3 +30,5 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+console.log("launchReady : " , launchReady);
+console.log("For given values shuttle should not have launched but the output is different so the program is not running as expected.");
