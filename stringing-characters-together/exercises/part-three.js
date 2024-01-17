@@ -13,7 +13,6 @@ console.log(`The abbreviation for '${language}' is '${initials}'.`)
 //4. Just for fun, try chaining 3 or more methods together, and then print the result.
 console.log(`The abbreviation for '${language}' is ${language.substring(language.indexOf('J'),language.indexOf('J')+1).concat(language.charAt(language.indexOf('S')))}.`);
 //Part Three section Two
-
 //1. Use the string methods you know to print 'Title Case' from the string 'title case'.
 
 let notTitleCase = 'title case';
