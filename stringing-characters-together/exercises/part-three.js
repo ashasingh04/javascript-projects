@@ -17,5 +17,6 @@ console.log(`The abbreviation for '${language}' is ${language.substring(language
 
 let notTitleCase = 'title case';
 console.log(notTitleCase.replace('t','T').replace('c','C'));
+
 //Tried to replace all occurrence of 't'
 //console.log(notTitleCase.replace(/t/g,'T'));

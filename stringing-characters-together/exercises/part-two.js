@@ -30,7 +30,6 @@ if(dnaTwo.indexOf('CAT') !== -1) {
 } else {
     console.log("CAT gene not found");
 }
-
 //3) Use .slice() to print out the fifth gene (set of 3 characters) from the DNA strand.
 console.log(dnaTwo.slice(16,19));
 //4) Use a template literal to print, "The DNA strand is ___ characters long."
