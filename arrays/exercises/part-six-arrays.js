@@ -32,10 +32,4 @@ console.log(threeDArray);
 console.log(threeDArray[0]);
 console.log(threeDArray[1][1]);
 console.log(threeDArray[1][2][2]);
-/*
-let studentInfo = [
-    ['Asha',34,[90,92,96]],
-    ['Kiara',35,[89,96,95]],
-    ['Teena',37,[98,96,93]]
-];
-*/
+
