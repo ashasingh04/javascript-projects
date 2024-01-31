@@ -39,13 +39,16 @@ let Tardigrade = {
 };
 
 // After you have created the other object literals, add the astronautID property to each one.
+
 superChimpOne["astronautID"] = 1;
 salamander["astronautID"] = 2;
 superChimpTwo["astronautID"] = 3;
 Beagle["astronautID"] = 4;
 Tardigrade["astronautID"] = 5;
+
 // Create an array to hold the animal objects.
 let crew = [superChimpOne,salamander,superChimpTwo,Beagle,Tardigrade];
+
 // Print out the relevant information about each animal.
 function crewReports(animalObj)
 {
@@ -55,9 +58,12 @@ for(let i = 0; i < crew.length; i++)
 {
    console.log(crewReports(crew[i]));
 }
+
 // Start an animal race!
 function fitnessTest(candidates){
-   let results = [], numSteps, turns;
+   let results = [];
+   let numSteps;
+   let turns;
    for (let i = 0; i < candidates.length; i++){
        numSteps = 0;
        turns = 0;
