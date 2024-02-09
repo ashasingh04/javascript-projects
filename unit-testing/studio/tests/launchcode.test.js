@@ -42,8 +42,7 @@ describe("Testing launchcode", function(){
 
   test("should return 'Code Rocks!',When passed a number that is divisible by 3 and 5", function() {
     expect(launchcode.launchOutput(15)).toEqual('Code Rocks!');
-  });
-  
+  });  
   // test("should return 'Launch Rocks!',When passed a number that is divisible by 2 and 5", function() {
   //   expect(launchcode.launchOutput(20)).toEqual('Launch Rocks!');
   // });
