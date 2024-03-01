@@ -2,18 +2,28 @@
 
 <head>
 	<meta charset="utf-8">
-	<script>
+	<!-- <script>
 		// TODO: create a handler
     window.addEventListener("load", function(){
         // TODO: register the handler
     });
-	</script>
+	</script> -->
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
 </head>
 
 <body>
 
 	<form id="searchForm">
     <!-- TODO: add form elements -->
+	<div class="container">
+		<input class="searchVal" type="text" name="q" autofocus/>
+		<label>Google <input type="radio" name="engine" value="google"/></label>
+		<label>DuckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
+		<label>Bing<input type="radio" name="engine" value="bing"/></label>
+		<label>Ask<input type="radio" name="engine" value="ask"/></label>
+		<button id="searchBtn" value="Go !">Go !</button>
+	</div>
+		
 	</form>
-
 </body>
